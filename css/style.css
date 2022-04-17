@@ -1,0 +1,181 @@
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  font-size: 1em;
+}
+.pro{
+  font-size:2rem;
+
+}
+p{
+line-height: 2;
+}
+
+h1{
+  color: #54BAB9;
+  font-size: 5.265rem;
+  margin: 50px auto 0 auto;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color:#54BAB9;
+  font-family: 'Montserrat',sans-serif;
+  padding-bottom: : 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+
+}
+hr{
+    border-color: grey;
+    width: 4%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin: 50px auto;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  padding: 0 30px;
+}
+a:hover{
+  color: white;
+}
+form{
+padding-left: 10px;
+  text-align:left;
+  line-height: 3;
+}
+.at{
+  font-size: 0.75rem;
+  color: white;
+}
+.top{
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+
+}
+.middle-container{
+  margin: 100px 0 ;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+.intro{
+  width:20%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-r{
+  width: 70%;
+  margin: 70px auto 70px auto;
+  text-align:justify;
+}
+
+.contact-message{
+  margin: 40px auto 70px;
+  width:40%;
+}
+.checkbox{
+  font-size: 0.5em;
+}
+
+.top-cloud{
+  position:absolute;
+  top: 100px;
+  right:200px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.bird{
+  height: 20px;
+  position: absolute;
+  right:  200px;
+  top:200px;
+}
+.crow{
+  height: 100px;
+  position: absolute;
+}
+
+.bpic{
+  height: 200px;
+  border-radius: 100%;
+}
+.compic{
+  height: 100px;
+  border-radius: 10%;
+  float: left;
+  margin-right:  100px;
+  margin-bottom: 20px;
+
+  width: 25%;
+}
+.gif{
+  height: 200px;
+  border-radius: 200%;
+  float: right;
+  margin-left: 100px;
+  width: 25%;
+}
+.foodpic{
+  height: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 100px;
+  width: 25%;
+}
+.btn {
+  background: #34d9c3;
+  background-image: -webkit-linear-gradient(top, #34d9c3, #2980b9);
+  background-image: -moz-linear-gradient(top, #34d9c3, #2980b9);
+  background-image: -ms-linear-gradient(top, #34d9c3, #2980b9);
+  background-image: -o-linear-gradient(top, #34d9c3, #2980b9);
+  background-image: linear-gradient(to bottom, #34d9c3, #2980b9);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+    font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+<div class="icons">
+<div class="fas fa-search" id="search-btn"></div>
+<div class="fas fa-shopping-cart" id="cart-btn"></div>
+<div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+<div class="search-form">
+<input type="search" id="search-box" placeholder="search here...">
+<label for="search-box" class="fas fa-search"></label>
+</div>
+
